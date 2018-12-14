@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		543FCB0F98C2422069C7EE74 /* Pods_Marmit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C4A2C1FC9AE4AEA0275CB /* Pods_Marmit.framework */; };
 		792CB89BDF7E263C0E4A8476 /* Pods_MarmitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85611273558616A891D34B04 /* Pods_MarmitTests.framework */; };
+		8F95C49F21C2908900D13290 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F95C49E21C2908900D13290 /* GoogleService-Info.plist */; };
+		8F95C4A121C29BF100D13290 /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95C4A021C29BF100D13290 /* ConnexionViewController.swift */; };
+		8F95C4A321C29C0300D13290 /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95C4A221C29C0300D13290 /* InscriptionViewController.swift */; };
+		8F95C4A521C2A5FD00D13290 /* Font in Resources */ = {isa = PBXBuildFile; fileRef = 8F95C4A421C2A5FD00D13290 /* Font */; };
+		8F95C4A721C2B5F000D13290 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95C4A621C2B5F000D13290 /* TabBarViewController.swift */; };
 		8FC3302F21BAAB2000A590C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3302E21BAAB2000A590C1 /* AppDelegate.swift */; };
 		8FC3303121BAAB2000A590C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3303021BAAB2000A590C1 /* ViewController.swift */; };
 		8FC3303421BAAB2000A590C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC3303221BAAB2000A590C1 /* Main.storyboard */; };
@@ -16,7 +21,6 @@
 		8FC3303921BAAB2200A590C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC3303721BAAB2200A590C1 /* LaunchScreen.storyboard */; };
 		8FC3304421BAAB2300A590C1 /* MarmitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3304321BAAB2300A590C1 /* MarmitTests.swift */; };
 		8FC3304F21BAAB2300A590C1 /* MarmitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3304E21BAAB2300A590C1 /* MarmitUITests.swift */; };
-		8FC3305D21BAAD6900A590C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC3305C21BAAD6900A590C1 /* GoogleService-Info.plist */; };
 		D4C07CD5469D2F0E7566967A /* Pods_MarmitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A943658E975401294073C4 /* Pods_MarmitUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +48,11 @@
 		80DF45F19B81F8E179A84369 /* Pods-MarmitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarmitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarmitTests/Pods-MarmitTests.release.xcconfig"; sourceTree = "<group>"; };
 		81C7E94596D9F5704187DE37 /* Pods-Marmit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marmit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marmit/Pods-Marmit.release.xcconfig"; sourceTree = "<group>"; };
 		85611273558616A891D34B04 /* Pods_MarmitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarmitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F95C49E21C2908900D13290 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8F95C4A021C29BF100D13290 /* ConnexionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
+		8F95C4A221C29C0300D13290 /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
+		8F95C4A421C2A5FD00D13290 /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Font; path = "../../Marmit_Images/Avenir next/Font"; sourceTree = "<group>"; };
+		8F95C4A621C2B5F000D13290 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		8FC3302B21BAAB2000A590C1 /* Marmit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marmit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC3302E21BAAB2000A590C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FC3303021BAAB2000A590C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +66,6 @@
 		8FC3304A21BAAB2300A590C1 /* MarmitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarmitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC3304E21BAAB2300A590C1 /* MarmitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmitUITests.swift; sourceTree = "<group>"; };
 		8FC3305021BAAB2300A590C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FC3305C21BAAD6900A590C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9225765B5A9CF7D8EA76E6C3 /* Pods-MarmitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarmitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarmitUITests/Pods-MarmitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C852C6E3440A2C2AE2DE4DE6 /* Pods-Marmit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marmit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marmit/Pods-Marmit.debug.xcconfig"; sourceTree = "<group>"; };
 		D2F0F0CA2D2D34B7490C2B09 /* Pods-MarmitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarmitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarmitTests/Pods-MarmitTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +140,11 @@
 				8FC3303521BAAB2200A590C1 /* Assets.xcassets */,
 				8FC3303721BAAB2200A590C1 /* LaunchScreen.storyboard */,
 				8FC3303A21BAAB2200A590C1 /* Info.plist */,
-				8FC3305C21BAAD6900A590C1 /* GoogleService-Info.plist */,
+				8F95C49E21C2908900D13290 /* GoogleService-Info.plist */,
+				8F95C4A021C29BF100D13290 /* ConnexionViewController.swift */,
+				8F95C4A221C29C0300D13290 /* InscriptionViewController.swift */,
+				8F95C4A421C2A5FD00D13290 /* Font */,
+				8F95C4A621C2B5F000D13290 /* TabBarViewController.swift */,
 			);
 			path = Marmit;
 			sourceTree = "<group>";
@@ -180,6 +192,7 @@
 				8FC3302821BAAB2000A590C1 /* Frameworks */,
 				8FC3302921BAAB2000A590C1 /* Resources */,
 				56D4C87C092BC05833C98C25 /* [CP] Embed Pods Frameworks */,
+				E09FF447458E1D51A752A997 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,8 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F95C4A521C2A5FD00D13290 /* Font in Resources */,
 				8FC3303921BAAB2200A590C1 /* LaunchScreen.storyboard in Resources */,
-				8FC3305D21BAAD6900A590C1 /* GoogleService-Info.plist in Resources */,
+				8F95C49F21C2908900D13290 /* GoogleService-Info.plist in Resources */,
 				8FC3303621BAAB2200A590C1 /* Assets.xcassets in Resources */,
 				8FC3303421BAAB2000A590C1 /* Main.storyboard in Resources */,
 			);
@@ -331,7 +345,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Marmit/Pods-Marmit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -339,7 +355,9 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -392,6 +410,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E09FF447458E1D51A752A997 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Marmit/Pods-Marmit-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marmit/Pods-Marmit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -399,8 +439,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F95C4A121C29BF100D13290 /* ConnexionViewController.swift in Sources */,
 				8FC3303121BAAB2000A590C1 /* ViewController.swift in Sources */,
 				8FC3302F21BAAB2000A590C1 /* AppDelegate.swift in Sources */,
+				8F95C4A721C2B5F000D13290 /* TabBarViewController.swift in Sources */,
+				8F95C4A321C29C0300D13290 /* InscriptionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
